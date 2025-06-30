@@ -69,13 +69,16 @@
 
         /* Hero Section */
         .hero {
-            padding: 120px 0 80px;
-            text-align: center;
-            color: white;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        padding: 120px 0 80px;
+        text-align: center;
+        color: #f45a3e; /* Updated text color */
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url('images/defiant-meals-logo.png') center center / contain no-repeat,
+                    linear-gradient(135deg, #f0f0f0, #f9f9f9);
+        background-blend-mode: multiply;
         }
 
         .hero-content h1 {
@@ -87,6 +90,7 @@
 
         .hero-content p {
             font-size: 1.3rem;
+            margin-top: 24rem; 
             margin-bottom: 2rem;
             max-width: 600px;
             margin-left: auto;
@@ -371,8 +375,9 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Defiant Meals</h1>
-                <p>Defiantly delicious, nutritiously rebellious. Fresh, healthy meals prepared with quality ingredients and delivered to fuel your active lifestyle.</p>
                 <a href="#menu" class="cta-button">View Our Menu</a>
+                <p>Defiantly delicious, nutritiously rebellious. Fresh, healthy meals prepared with quality ingredients and delivered to fuel your active lifestyle.</p>
+
             </div>
         </div>
     </section>
